@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 document.addEventListener('DOMContentLoaded', (event) => {
     let aboutButton = document.getElementById("homePage");
     aboutButton.addEventListener("click", () => {
-        window.location.href = "mainPage.html";
+        window.location.href = "index.html";
     });
 });
 
