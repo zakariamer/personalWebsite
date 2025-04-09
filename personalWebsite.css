@@ -1,0 +1,490 @@
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    0% {
+        background-position: 0 50%;
+    }
+}
+.buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+}
+#quizHeader {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: linear-gradient(45deg,#f86565,#7462ff);
+}
+#yahtzeeBody {
+    background: linear-gradient(45deg,#f86565,#7462ff);
+}
+#quizBody {
+    background-color: red;
+    background: linear-gradient(45deg,#f86565,#7462ff);
+}
+#projectsBody {
+    background: linear-gradient(45deg,#f86565,#7462ff);
+}
+#colorful {
+    background: linear-gradient(45deg,#f86565,#7462ff);
+}
+
+/* Buttons */
+#projectsButton {
+    background: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#homePage {
+    background: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#contactButton {
+    background: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#resumeButton {
+    background: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.buttons button {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0s ease;
+}
+
+.buttons button:hover {
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Buttons End */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#me {
+    border-radius: 5px;
+    padding: 10px;
+    color: white
+}
+#specialty {
+    color: white
+}
+#picture {
+    border-radius: 250px;
+    width: 115%px;
+    height: 450px;
+    justify-content: center;
+}
+#header {
+    border-bottom: 10px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#allIntro {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(45deg,#f86565,#7462ff);
+    animation: color 2s ease-in infinite;
+}
+
+#nationality {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#canada {
+    width: 175px;
+    height: 100px;
+}
+#algeria {
+    width: 150px;
+    height: 100px;
+}
+#titleImage {
+    display: flex;
+    flex-direction: column;
+}
+
+#imageDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:40px;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    
+}
+#aboutMeDiv {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 5px;
+}
+
+
+
+#degrees {
+    list-style-type: none; 
+    counter-reset: list-counter; 
+    padding-left: 0; 
+  }
+  
+#degrees li:before {
+    content: "-";
+    display: inline-block;
+    width: 1em; 
+    margin-left: 2em; 
+}
+  
+#languages {
+    list-style-type: none; 
+    counter-reset: list-counter; 
+    padding-left: 0; 
+}
+#languages li:before {
+    content: "-";
+    display: inline-block;
+    width: 1em; 
+    margin-left: 2em; 
+
+}
+#program {
+    color: white;
+    text-align: left;
+}
+
+#projectsTitle {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    font-size: 75px;
+    font-family: cursive;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#contactDiv {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+#linkedIn {
+    color: white;
+}
+.contactMe {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: white;
+    
+}
+
+#linkedIn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 500000px;
+}
+#link {
+    color: white;
+    font-weight: bold;
+}
+
+#movieFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#quizFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#movieDes {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#movieDes li:before {
+    content: "-";
+    display: inline-block;
+    width: 0.25em;
+    margin: 1.5em;
+}
+
+#implemented {
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+#implemented li:before {
+    content: "-";
+    display: inline-block;
+    width: 1em;
+    margin: 1.5em;
+}
+#tryIt {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+#quiz {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#movie {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#yahtzeeTitle {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+#engage {
+    font-size: 25px;
+    color: white;
+}
+#lines {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    
+}
+#yahList {
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+#yahList li:before {
+    content: "-";
+    display: inline-block;
+    width: 1em;
+    margin: 1.5em;
+}
+#yahtzeeFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+#pointsMost {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+#resumeList {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    background: white;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg,#f86565,#7462ff);
+    color: white;
+    font-weight: bold;
+}
+h1, h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.contact-info {
+    margin: 20px 0;
+}
+.contact-info h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contact-info p, .contact-info a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.contact-form {
+    margin-top: 30px;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #555;
+}
+.social-media {
+    text-align: center;
+    margin-top: 30px;
+}
+.social-media a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+.social-media a:hover {
+    color: #555;
+}
+#greatDay {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+#contactHeader {
+    font-size: 40px;
+}
+#instagramLogo {
+    height: 30px;
+    width: 30px;
+}
+#instagramFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#linkedFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#linkedLogo {
+    height: 30px;
+    width: 30px;
+}
+
