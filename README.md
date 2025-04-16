@@ -1,6 +1,6 @@
 # My Personal Website
 
-Welcome to my personal website! This site is a hub for everything about me — my portfolio, blog, contact information, and more.
+Welcome to my personal website! This site contains an about me page, projects, and contact
 
 ## 🚀 Features
 
