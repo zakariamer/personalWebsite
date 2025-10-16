@@ -273,6 +273,21 @@ li {
     height: 40px;
     border-radius: 500000px;
 }
+
+#moviePic {
+    border-radius: 25px;
+    width: 700px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#trivia {
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
 #link {
     color: white;
     font-weight: bold;
